@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Muspres.ID</string>
+    <string name="string_menu_1">Kitab</string>
+    <string name="string_menu_2">Al-Qur\'an</string>
+    <string name="string_menu_3">U-Give</string>
+    <string name="string_menu_4">Doa dan Dzikir</string>
+    <string name="string_menu_5">U-Class</string>
+    <string name="string_menu_6">U-Voice</string>
 </resources>

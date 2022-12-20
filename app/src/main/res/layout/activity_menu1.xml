@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".MainActivity">
+    tools:context=".Menu1Activity">
+
 
 <!--    <ScrollView-->
 <!--        android:layout_width="match_parent"-->
@@ -16,16 +16,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="90dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:scaleType="fitCenter"
             android:src="@drawable/title"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_weight="0.5"
+            android:text="Kitab"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/title" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintTop_toBottomOf="@id/title">
+            app:layout_constraintTop_toBottomOf="@id/subtitle">
             <!--        <ImageView-->
             <!--            android:layout_width="match_parent"-->
             <!--            android:layout_height="wrap_content"-->
@@ -41,22 +52,22 @@
                 <ImageButton
                     android:id="@+id/btn_menu_1"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="100dp"
                     android:layout_weight="0.5"
                     android:background="#000000FF"
                     android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/menu_kitab" />
+                    android:src="@drawable/icon_menu" />
 
                 <ImageButton
                     android:id="@+id/btn_menu_2"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="100dp"
                     android:layout_weight="0.5"
                     android:background="#000000FF"
                     android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/menu_alquran" />
+                    android:src="@drawable/icon_menu" />
             </LinearLayout>
 
             <LinearLayout
@@ -71,8 +82,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="@string/string_menu_1"
-                    android:textSize="30sp"
+                    android:text="Fathul Qarib"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -80,8 +91,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="@string/string_menu_2"
-                    android:textSize="30sp"
+                    android:text="Alfiyah Ibnu Malik"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -93,22 +104,22 @@
                 <ImageButton
                     android:id="@+id/btn_menu_3"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="100dp"
                     android:layout_weight="0.5"
                     android:background="#000000FF"
                     android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/menu_give" />
+                    android:src="@drawable/icon_menu" />
 
                 <ImageButton
                     android:id="@+id/btn_menu_4"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="100dp"
                     android:layout_weight="0.5"
                     android:background="#000000FF"
                     android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/menu_doa" />
+                    android:src="@drawable/icon_menu" />
             </LinearLayout>
 
             <LinearLayout
@@ -123,8 +134,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="@string/string_menu_3"
-                    android:textSize="30sp"
+                    android:text="Fathul Izzar"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -132,8 +143,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="@string/string_menu_4"
-                    android:textSize="30sp"
+                    android:text="Safinatun Najah"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -145,22 +156,22 @@
                 <ImageButton
                     android:id="@+id/btn_menu_5"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="100dp"
                     android:layout_weight="0.5"
                     android:background="#000000FF"
                     android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/menu_class" />
+                    android:src="@drawable/icon_menu" />
 
                 <ImageButton
                     android:id="@+id/btn_menu_6"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="100dp"
                     android:layout_weight="0.5"
                     android:background="#000000FF"
                     android:padding="6dp"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/menu_voice" />
+                    android:src="@drawable/icon_menu" />
             </LinearLayout>
 
             <LinearLayout
@@ -175,8 +186,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="@string/string_menu_5"
-                    android:textSize="30sp"
+                    android:text="Al-Jurumiyah"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -184,11 +195,62 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="@string/string_menu_6"
-                    android:textSize="30sp"
+                    android:text="Arba'in Nawawi"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_menu_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.5"
+                    android:background="#000000FF"
+                    android:padding="6dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_menu" />
+
+                <ImageButton
+                    android:id="@+id/btn_menu_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="0.5"
+                    android:background="#000000FF"
+                    android:padding="6dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_menu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Aqidatul Awam"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Ta'limul Muta'alim"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
 <!--    </ScrollView>-->
-
 </androidx.constraintlayout.widget.ConstraintLayout>

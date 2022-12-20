@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_login.xml" value="0.14" />
         <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_menu1.xml" value="0.14" />
+        <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_menu2.xml" value="0.14" />
+        <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_menu3.xml" value="0.13489583333333333" />
+        <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_menu4.xml" value="0.13489583333333333" />
+        <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_menu5.xml" value="0.13489583333333333" />
+        <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_menu6.xml" value="0.13489583333333333" />
         <entry key="..\:/AndroidStudioProjects/MuspresID/app/src/main/res/layout/activity_splash.xml" value="0.1" />
       </map>
     </option>

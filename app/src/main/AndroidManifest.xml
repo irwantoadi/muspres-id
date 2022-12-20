@@ -14,6 +14,9 @@
         android:theme="@style/Theme.MuspresID.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -25,6 +28,24 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity
+            android:name=".Menu6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Menu1Activity"
+            android:exported="false" />
     </application>
 
 </manifest>
